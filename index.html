@@ -18,6 +18,7 @@
     <script src="./js/blocs.js"></script>
     <link rel='stylesheet' href='./css/et-line.min.css'/>
     <link rel='stylesheet' href='./css/font-awesome.min.css'/>
+    <link rel="stylesheet" type="text/css" href="./css/portfolio.css">
     <link href='http://fonts.googleapis.com/css?family=Montserrat&subset=latin,latin-ext' rel='stylesheet'
           type='text/css'>
 
@@ -163,7 +164,71 @@
     <!-- clients END -->
 
     <!-- porfolio -->
-    <div class="bloc l-bloc bgc-white" id="porfolio">
+
+    <div class="bloc l-bloc bgc-white" style="margin-top:50px;" id="porfolio">
+    <div class="row form-group">
+        <div class="col-sm-4">
+            <div class="panel panel-default">
+                <div class="panel-image">
+                    <center><img src="img/Profile_Maper_Home.png" class="panel-image-preview" style="height:70%;width:70%;"/></center>
+                    <label for="toggle-1"></label>
+                </div>
+                <input type="checkbox" id="toggle-1" class="panel-image-toggle">
+                <div class="panel-body">
+                    <h4>Title of Image</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in lobortis nisl, vitae iaculis sapien. Phasellus ultrices gravida massa luctus ornare. Suspendisse blandit quam elit, eu imperdiet neque semper et.</p>
+                </div>
+                <div class="panel-footer text-center">
+                    <a href="#download"><span class="glyphicon glyphicon-download"></span></a>
+                    <a href="#facebook"><span class="fa fa-facebook"></span></a>
+                    <a href="#twitter"><span class="fa fa-twitter"></span></a>
+                    <a href="#share"><span class="glyphicon glyphicon-share-alt"></span></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="panel panel-default">
+                <div class="panel-image hide-panel-body">
+                   <center><img src="img/Lock_N_Roll_Home.png" class="panel-image-preview" style="height:70%;width:70%;" /></center>
+                    <label for="toggle-2"></label>
+                </div>
+                <input type="checkbox" id="toggle-2" class="panel-image-toggle">
+                <div class="panel-body">
+                    <h4>Title of Image</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in lobortis nisl, vitae iaculis sapien. Phasellus ultrices gravida massa luctus ornare. Suspendisse blandit quam elit, eu imperdiet neque semper et.</p>
+                </div>
+                <div class="panel-footer text-center">
+                    <a href="#download"><span class="glyphicon glyphicon-download"></span></a>
+                    <a href="#facebook"><span class="fa fa-facebook"></span></a>
+                    <a href="#twitter"><span class="fa fa-twitter"></span></a>
+                    <a href="#share"><span class="glyphicon glyphicon-share-alt"></span></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="panel panel-default">
+                <div class="panel-image hide-panel-body">
+                   <center> <img src="img/Its_Urgent_Home.JPG" class="panel-image-preview" style="height:70%;width:70%;" /></center>
+                    <label for="toggle-3"></label>
+                </div>
+                <input type="checkbox" id="toggle-3" class="panel-image-toggle">
+                <div class="panel-body">
+                    <h4>Title of Image</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in lobortis nisl, vitae iaculis sapien. Phasellus ultrices gravida massa luctus ornare. Suspendisse blandit quam elit, eu imperdiet neque semper et.</p>
+                </div>
+                <div class="panel-footer text-center">
+                    <a href="#download"><span class="glyphicon glyphicon-download"></span></a>
+                    <a href="#facebook"><span class="fa fa-facebook"></span></a>
+                    <a href="#twitter"><span class="fa fa-twitter"></span></a>
+                    <a href="#share"><span class="glyphicon glyphicon-share-alt"></span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+    <!-- <div class="bloc l-bloc bgc-white" id="porfolio">
         <div class="container bloc-lg">
             <div class="row">
                 <div class="col-sm-12">
@@ -178,18 +243,21 @@
             </div>
             <div class="row voffset">
                 <div class="col-sm-4">
-                    <a href="#" data-lightbox="img/Profile_Maper_Home.png" data-caption="Profile Maper "><img
-                            src="img/Profile_Maper_Home.png" class="img-responsive animated zoomIn" alt="portfolio"/></a>
+                    <center><a href="#" style="float:right" data-lightbox="img/Profile_Maper_Home.png" data-caption="Profile Maper "><img
+                            src="img/profile_maper_preview.png" class="img-responsive animated zoomIn" alt="portfolio"/></a></center>
                 </div>
                 <div class="col-sm-4">
-                    <a href="#" data-lightbox="img/Lock_N_Roll_Home.png" data-caption="Image description"><img
-                            src="img/Lock_N_Roll_Home.png" class="img-responsive animated zoomIn" alt="portfolio"/></a>
+                    <a href="#"  style="float:right" data-lightbox="img/Lock_N_Roll_Home.png" data-caption="Image description"><img
+                            src="img/Lock_N_Roll_preview.png" class="img-responsive animated zoomIn" alt="portfolio"/></a>
                 </div>
                 <div class="col-sm-4">
-                    <a href="#" data-lightbox="img/Its_Urgent_Home.jpg" data-caption="Image description"><img
-                            src="img/Its_Urgent_Home.jpg" class="img-responsive animated zoomIn" alt="portfolio"/></a>
+                    <a href="#" style="float:right" data-lightbox="img/Its_Urgent_Home.jpg" data-caption="Image description"><img
+                            src="img/Its_Urgent_Preview.jpg" class="img-responsive animated zoomIn" alt="portfolio"/></a>
                 </div>
+                
             </div>
+            
+            
             <!-- <div class="row voffset">
                 <div class="col-sm-3">
                     <a href="#" data-lightbox="img/work-11.jpg" data-caption="Image description"><img
@@ -208,8 +276,8 @@
                             src="img/dribbble-preview.png" class="animDelay04 animated zoomIn img-responsive" alt="portfolio"/></a>
                 </div>
             </div> -->
-        </div>
-    </div>
+      <!--   </div>
+    </div> --> 
     <!-- porfolio END -->
 
     <!-- team -->
@@ -226,7 +294,7 @@
                     </p>
                 </div>
             </div>
-            <div class="row voffset-lg">
+            <center><div class="row voffset-lg">
                 <!-- <div class="col-sm-3">
                     <img src="img/adolf-zika-872335_640.jpg" class="img-responsive animated zoomIn" alt="member"/>
 
@@ -241,22 +309,22 @@
                 <div class="col-xs-6">
                     <img src="img/Deep_Shah.jpg" class="img-responsive animated zoomIn animDelay02" alt="member"/>
 
-                    <h3 class="text-center mg-md">
+                    <h3 class="mg-md">
                         Deep Shah
                     </h3>
 
-                    <p class="text-center">
+                    <p>
                         Android Developer
                     </p>
                 </div>
                 <div class="col-xs-6">
-                    <img src="img/Khushbu_Shah.jpg" class="img-responsive animDelay04 animated zoomIn" alt="member"/>
+                    <img src="img/Khushbu_Shah.jpg" class="img-responsive animDelay02 animated zoomIn" alt="member"/>
 
-                    <h3 class="text-center mg-md">
+                    <h3 class="mg-md">
                         Khushbu Shah
                     </h3>
 
-                    <p class="text-center">
+                    <p>
                         Android & iOS Developer
                     </p>
                 </div>
@@ -272,6 +340,7 @@
                     </p>
                 </div>
  -->            </div>
+ </center>
         </div>
 
     </div>
