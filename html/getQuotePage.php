@@ -1,1 +1,5 @@
-<?php echo "Comming Soon"; ?>
+<?php
+echo "<h2>Comming Soon!</h2>";
+
+
+?>
